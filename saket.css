@@ -1,0 +1,1320 @@
+
+*{
+    box-sizing: border-box;
+
+}
+
+body
+{
+    box-sizing: border-box;
+    box-shadow: inset;
+    color: #666;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container
+{
+    border: 0px solid black;
+    height: auto;
+    width: 100%;
+}
+
+.gmail
+{
+    border: 0px solid black;
+    height: 30px;
+    width: auto;
+    background-color: #294a70;
+    color: #fff;
+}
+
+.gamil, .no
+{
+     border: none;
+     border-right: 1px solid #fff;
+     height: 30px;
+     width: 150px;
+    margin: auto 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    border-width: 2px;
+    color: #fff;
+
+}
+
+.gmail .sg
+{
+    border: none;
+    height: 30px;
+    width: 300px;
+    margin: -30px 230px;
+    padding: 5px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-style: italic;
+    color: #fff;
+}
+
+.gmail .sg a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.logo
+{
+    border: 0px solid black;
+    height:150px;
+    width: auto;
+}
+
+.logo img
+{
+    margin: 2% 9%;
+
+}
+.logo p a
+{
+   font-size: 30px;
+   font-family: sans-serif;
+   text-decoration: inherit;
+   display: block;
+    margin-block-start: -4em;
+    margin-block-end: 1em;
+    margin-inline-start: 235px;
+    margin-inline-end: 690px;
+}
+ span
+ {
+
+        font-family: sans-serif;
+        font-size:17px;
+
+        text-decoration: none;
+ }
+
+
+
+.navbar
+{
+
+    height: 50px;
+    width: auto;
+    text-align: center;
+    background-color: #294a70;
+}
+
+.blank
+{
+
+    height: 50px;
+    width: 130px;
+    background-color: #294a70;
+}
+
+.home
+{
+
+    height: 52px;
+    width: 50px;
+    margin: -3.4% 9%;
+    background-color: #fff;
+}
+
+.home img
+{
+    height:45px;
+    width: 80;
+    margin-top: 3%;
+}
+.menu-bar
+{
+
+    margin: 0;
+    padding: 0;
+   margin: 0 187px;
+  vertical-align: center;
+
+}
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+
+}
+.menu-bar li
+{
+    display: inline-block;
+    position: relative  ;
+    border-right: 1px solid white;
+    margin: 0 -2px;
+    padding: 14px 16px;
+
+}
+nav a
+{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.menu-bar li:hover
+{
+    background-color: #ffab1f;
+}
+.downarrow
+{
+   display: inline-block;
+   position: relative;
+    border: 3px solid white;
+    height: 8px;
+    width: 8px;
+    border-left: none;
+    border-bottom: none;
+    left: 5px;
+    transform: rotate(135deg) translate(0px, 3px);
+
+}
+
+ nav .submenu
+{
+    display: block;
+    position: absolute;
+    margin: 15px 0;
+    z-index: 100;
+}
+nav .submenu li
+{
+    display: block;
+    position: relative;
+    border-top: 1px solid white;
+    background-color:  #294a70;
+
+}
+nav .submenu
+{
+    display: none;
+}
+.menu-bar li:hover .submenu
+{
+    display: block;
+    cursor: pointer;
+}
+nav .submenu li:hover
+{
+    background-color: #ffab1f;
+}
+nav .visitor
+{
+    display:block;
+   position: absolute;
+   border-left: 1px solid white;
+    margin: -37px 116px;
+}
+nav .visitor li
+{
+   display: block;
+   position: relative;
+}
+nav .visitor
+{
+    display: none;
+}
+.submenu li:hover .visitor
+{
+    display: block;
+    cursor: pointer;
+}
+.rightarrow
+{
+    display: inline-block;
+    position: relative;
+     border: 3px solid white;
+     height: 8px;
+     width: 8px;
+     border-left: none;
+     border-bottom: none;
+     left: 18px;
+     transform: rotate(45deg) translate(0px, 3px);
+}
+nav .supersubmenu
+{
+    display: block;
+    position: absolute;
+    margin: -60px 118px;
+}
+nav .supersubmenu li
+{
+    display: block;
+    position: relative;
+    border-left: 1px solid white;
+
+}
+.rightarrow2
+{
+    display: inline-block;
+    position: relative;
+     border: 3px solid white;
+     height: 8px;
+     width: 8px;
+     border-left: none;
+     border-bottom: none;
+     top: -6px;
+     left: 18px;
+     transform: rotate(35deg) translate(0px, 3px);
+}
+nav .supersubmenu
+{
+    display: none;
+}
+nav .submenu li:hover .supersubmenu
+{
+    display: block;
+}
+nav .supersubmenu2
+{
+    display: block;
+    position: absolute;
+    margin: -38px 173px;
+}
+nav.supersubmenu2 li
+{
+    display: block;
+    position: relative;
+}
+nav .supersubmenu2
+{
+    display: none;
+}
+nav .supersubmenu li:hover .supersubmenu2
+{
+    display: block;
+}
+nav .studentcornersupersubmenu
+{
+    display: block;
+    position: absolute;
+    margin: -38px 145px;
+
+}
+nav .studentcornersupersubmenu li
+{
+    display: block;
+    position: relative;
+    border-left: 1px solid white;
+}
+nav .studentcornersupersubmenu
+{
+    display: none;
+}
+nav  .submenu li:hover .studentcornersupersubmenu
+{
+    display: block;
+}
+.navline
+
+{
+
+    background-color: #ffab1f;
+    height: 10px;
+    width: 100%;
+
+
+}
+
+.page
+{
+
+    height: 900px;
+    width: auto;
+    margin-top: -3.1%;
+}
+
+.pagemenu
+{
+    display: block;
+    position: relative;
+    margin: 5% 6%;
+    height: 300px;
+    width: auto;
+}
+
+.pagemenu ul
+{
+    display: block;
+    position:relative;
+    height: 300px;
+    width: 300px;
+
+}
+
+.pagemenu ul li
+{
+    display: block;
+    position:relative;
+    height: 55px;
+    width: auto;
+    text-align: center;
+    padding-top: 13px;
+    list-style: none;
+    background-color: #294a70;
+
+}
+
+.pagemenu ul li a
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.pagemenu ul li :hover
+{
+    display: block;
+    position: relative;
+
+}
+.pagemenu ul li:hover a
+{
+    display: block;
+    position: relative;
+     height: 55px;
+
+}
+.pagemenu ul li:hover
+{
+    background-color: #f4a024;
+}
+.pagemenu  li li:hover
+{
+    background-color: #f4a024;
+}
+
+
+.pagemenu  li  li
+{
+    margin-inline-start: 230px;
+    margin-block-start: -55px;
+    padding-block-end: 91px;
+    width: 158px;
+    border: 1px solid white;
+}
+
+.pagemenu  li  li
+{
+    display: none;
+    position: relative;
+}
+
+.pagemenu ul li:hover li
+{
+    display: block;
+    position: relative;
+
+}
+.pagemenu  li  li .various li
+{
+    display: block;
+    position: relative;
+    margin-inline-start: 132px;
+    margin-block-start: -30px;
+    padding-block-end: 68px;
+    width: 158px;
+}
+
+.pagemenu  li  li .various  li
+{
+    display: none;
+    position: relative;
+}
+ .pagemenu  li  li:hover .various li
+{
+    display: block;
+    position: relative;
+
+}
+.agni
+{
+    margin: -23% 33%;
+}
+.page .poem
+{
+
+    margin: -23% 3%;
+    color: #333399;
+}
+
+h2
+{
+    color: #808000;
+    margin: 24% 40%;
+}
+.poem p
+{
+    margin: 19% 33%;
+    font-family: cursive;
+    line-height: 30%;
+    font-size: 4rem;
+    font-family: krutiDev;
+
+}
+
+.poem img
+{
+    height: 50px;
+    width: 50px;
+    margin-top: 4%;
+    margin-left:35%;
+}
+
+.poem h3
+{
+    text-align: center;
+    margin-top: -16%;
+}
+
+.poem h3 ::after
+{
+    clear: both;
+}
+
+
+.notice h3
+{
+    border-left: 8px solid #ffab1f;
+    height: 40px;
+    width: 265px;
+    margin-left: 57em;
+    margin-top: -49em;
+    text-align: center;
+    vertical-align: auto;
+    background-color: #294a70;
+    color: #fff;
+    box-shadow: 10px 10px 5px lightblue inset;
+
+}
+
+.notice marquee
+{
+
+    width: 265px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-left: 77em;
+    font-size: 14px;
+
+    color: #666;
+    overflow-x: hidden;
+    word-wrap: break-word;
+
+}
+
+.notice marquee  a
+{
+    text-decoration: none;
+}
+
+.notice2 h3
+{
+    border-left: 8px solid #ffab1f;
+
+    height: 40px;
+    width: 265px;
+    margin-left: 58em;
+    margin-top: 6em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #294a70;
+    color: #fff;
+}
+
+.notice2 marquee
+{
+
+    width: 265px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-left: 78em;
+    font-size: 14px;
+
+    color: #666;
+    overflow-x: hidden;
+    word-wrap: break-word;
+
+}
+
+.notice2 marquee  a
+{
+    text-decoration: none;
+}
+.pageline
+{
+
+    background-color: #ffab1f; ;
+    height: 5px;
+    width: auto;
+
+}
+
+.links
+{
+    background-color: #294a70;;
+    border-top: 5px solid #ffab1f;
+    height: 400px;
+    width: auto;
+
+}
+.study
+{
+
+    height: auto;
+    width: 300px;
+    margin: 3% 12%;
+}
+.study h3
+{
+    margin: 5% -10%;
+    color:#c2c2c2;
+}
+
+.study ul
+{
+    list-style: none;
+    margin: 1% -7%;
+
+}
+
+.study ul li
+{
+    display: block;
+    position: relative;
+    height: 20px;
+    width: 250px;
+    color:#fff;
+    font-size: 20px;
+}
+.study ul li::before
+{
+    color: #ffab1f;
+    content: "";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 15px;
+    left: 0;
+    margin-left: 5px;
+    margin-right: 8px;
+    position: absolute;
+
+}
+
+.reasearch
+{
+    border-left: 1px dotted white;
+    height: auto;
+    width: 300px;
+    margin: -15% 30%;
+}
+
+.reasearch h3
+{
+    color:#c2c2c2 ;
+    margin-left: 6%;
+}
+.reasearch  ul
+{
+    list-style: none;
+    margin: 1% 0;
+    color: #fff;
+    margin-left: -5%;
+    font-size: 20px;
+}
+
+.quicklinks
+{
+    border-left: 1px dotted white;
+    height: auto;
+    width: 300px;
+    margin: 7% 50%;
+}
+
+.quicklinks h3
+{
+    color:#c2c2c2 ;
+    margin-left: 6%;
+}
+.quicklinks  ul
+{
+    list-style: none;
+    margin: 1% 0;
+    color: #fff;
+    margin-left: -5%;
+    font-size: 20px;
+}
+
+.portal
+{
+    border-left: 1px dotted white;
+    height: auto;
+    width: 300px;
+    margin: -18% 70%;
+    color: #fff;
+}
+
+.portal h3
+{
+    margin: 0 5%;
+}
+
+.portal #almuni
+{
+    margin: 5% 5%;
+    color: red;
+}
+
+.portal h4
+{
+    margin: 5% 5%;
+}
+.last
+{
+    border: 0px solid black;
+    height: 50px;
+    clear: both;
+    margin-top: -19px;
+    width: 1502px;
+    background-color: #294a70;
+    text-align: center;
+    color:white;
+    box-shadow: 10px 10px white;
+}
+@media  screen and (max-width:900px) {
+
+
+
+
+.container
+{
+
+    height: auto;
+    width: 100%;
+}
+
+.gmail
+{
+    height: auto;
+   width: auto;
+   margin:auto;
+}
+
+.gamil, .no
+{
+    height: auto;
+   width: auto;
+   margin: 0 60px;
+   border-right: none;
+}
+
+.gmail .sg
+{
+    height: auto;
+   width: auto;
+   margin: 0 25px;
+}
+.gmail .sg a
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+.logo
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.logo img
+{
+    height: auto;
+    width: auto;
+    margin:21px 100px;
+}
+.logo p a
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+ span
+ {
+    height: auto;
+   width: auto;
+   margin: auto;
+
+ }
+
+
+
+.navbar
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+
+.blank
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+
+.home
+{
+    height: auto;
+    width: auto;
+    margin: auto ;
+
+}
+
+.home img
+{
+    height: auto;
+   width: auto;
+   margin: 0 20px;
+}
+.menu-bar
+{
+
+    margin: 0;
+    padding: 0;
+
+  vertical-align: center;
+
+}
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    position:relative;
+    list-style: none;
+
+}
+.menu-bar li
+{
+   display: inherit;
+   position:relative;
+   border-bottom: 1px solid white;
+   border-right: none;
+    margin: 0 0;
+
+
+}
+nav a
+{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.menu-bar li:hover
+{
+    background-color: #ffab1f;
+}
+.downarrow
+{
+   display: inline-block;
+   position: relative;
+    border: 3px solid white;
+    height: 8px;
+    width: 8px;
+    border-left: none;
+    border-bottom: none;
+    left: 5px;
+    transform: rotate(135deg) translate(0px, 3px);
+
+}
+
+ nav .submenu
+{
+    display: block;
+    position: relative;
+    margin: 0px 0px;
+    padding: 0;
+    z-index: 100;
+}
+nav .submenu li
+{
+    display: block;
+    position: relative;
+    border-top: 1px solid white;
+    border-bottom: none;
+    background-color:  #294a70;
+
+}
+nav .submenu
+{
+    display: none;
+}
+.menu-bar li:hover .submenu
+{
+    display: none;
+}
+nav .submenu li:hover
+{
+    background-color: #ffab1f;
+}
+nav .visitor
+{
+    display:block;
+   position: relative;
+   margin: 0;
+
+
+
+}
+nav .visitor li
+{
+   display: block;
+   position: relative;
+    border-bottom: 0px;
+
+    border-left: none;
+}
+
+
+.rightarrow
+{
+    display: inline-block;
+    position: relative;
+     border: 3px solid white;
+     height: 8px;
+     width: 8px;
+     border-left: none;
+     border-bottom: none;
+     left: 18px;
+     transform: rotate(135deg) translate(0px, 3px);
+}
+nav .supersubmenu
+{
+    display: inherit;
+    position: relative;
+    margin: 0;
+
+}
+nav .supersubmenu li
+{
+    display: inherit;
+    position: relative;
+    margin: 0;
+
+
+}
+.rightarrow2
+{
+    display: inline-block;
+    position: relative;
+     border: 3px solid white;
+     height: 8px;
+     width: 8px;
+     border-left: none;
+     border-bottom: none;
+     top: -6px;
+     left: 18px;
+     transform: rotate(135deg) translate(0px, 3px);
+}
+
+nav .submenu li:hover .supersubmenu
+{
+    display: inherit;
+}
+nav .supersubmenu2
+{
+    display: inherit;
+    position:relative;
+
+   margin: 0;
+   padding: 0;
+}
+nav.supersubmenu2 li
+{
+    display: inherit;
+    position: relative;
+}
+nav .supersubmenu2
+{
+    display: none;
+}
+nav .supersubmenu li:hover .supersubmenu2
+{
+    display: inherit;
+}
+nav .studentcornersupersubmenu
+{
+    display: block;
+    position:relative;
+    margin: 0;
+}
+nav .studentcornersupersubmenu li
+{
+    display: block;
+    position: relative;
+    border-left: 1px solid white;
+}
+
+
+.navline
+
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+
+
+}
+
+.page
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+
+.pagemenu
+{
+    height: 200px;
+   width: 300px;
+   margin:170px 15px;
+}
+
+.pagemenu ul
+{
+    height: auto;
+   width: auto;
+   margin: auto;
+}
+.pagemenu ul li
+{
+    height: 50px;
+   width: auto;
+   margin: auto;
+
+   display: block;
+   position:relative;
+
+
+   text-align: center;
+   padding-top:0px;
+   list-style: none;
+   background-color: #294a70;
+}
+
+.pagemenu ul li a
+{
+
+    height:50px;
+    width: auto;
+    margin: auto;
+}
+
+.pagemenu ul li :hover
+{
+    height: 50px;
+    width: auto;
+    margin: auto;
+
+
+}
+.pagemenu ul li:hover a
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+    position:relative;
+
+
+
+}
+
+.pagemenu  li li:hover
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+
+.pagemenu  li  li
+{
+    height: 30px;
+    width: auto;
+    display: none;
+    margin: auto;
+
+
+}
+
+.pagemenu ul li:hover li
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-inline-start: 220px;
+    margin-inline-end: -137px;
+    margin-block-start: -17px;
+    margin-block-end: 2px;
+
+}
+.pagemenu  li  li .various li
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.pagemenu  li  li .various  li
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+ .pagemenu  li  li:hover .various li
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+.agni
+{
+    height: auto;
+    width: auto;
+    margin:317px 15px;
+}
+.page .poem
+{
+    height: auto;
+    width: auto;
+    margin:300px 35px;
+
+}
+
+h2
+{
+    height: auto;
+    width: auto;
+    margin:-305px 160px;
+}
+.poem p
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+
+.poem img
+{
+    height: auto;
+   width: auto;
+   margin: auto;
+}
+
+.poem h3
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.poem h3 ::after
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.notice h3
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+
+.notice marquee
+{
+
+    height: auto;
+    width: auto;
+    margin: auto;
+
+}
+
+.notice marquee  a
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.notice2 h3
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.notice2 marquee
+{
+    height: auto;
+   width: auto;
+   margin: auto;
+
+
+}
+
+.notice2 marquee  a
+{
+    height: auto;
+   width: auto;
+   margin: auto;
+}
+.pageline
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+
+
+}
+
+.links
+{
+    height: auto;
+   width: auto;
+   margin: auto;
+}
+.study
+{
+    height: auto;
+   width: auto;
+   margin: auto;
+
+}
+.study h3
+{
+    height: auto;
+    width: auto;
+    margin:0 62px;
+}
+
+.study ul
+{
+    height: auto;
+    width: auto;
+    margin: 0 71px;
+
+}
+
+.study ul li
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+.study ul li::before
+{
+
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.reasearch
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.reasearch h3
+{
+    height: auto;
+    width: auto;
+    margin:0 30px;
+}
+.reasearch  ul
+{
+    height: auto;
+    width: auto;
+    margin:0 71px;
+}
+
+.quicklinks
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.quicklinks h3
+{
+    height: auto;
+    width: auto;
+    margin: 0 20px;
+}
+.quicklinks  ul
+{
+    height: auto;
+    width: auto;
+    margin:0 71px;
+}
+
+.portal
+{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.portal h3
+{
+    height: auto;
+    width: auto;
+    margin:10px 88px;
+}
+
+.portal #almuni
+{
+    height: auto;
+    width: auto;
+    margin:10px 88px;
+}
+
+.portal h4
+{
+    height: auto;
+   width: auto;
+   margin:10px 88px;
+}
+.last
+{
+   height: auto;
+   width: auto;
+   margin:-18px 0;
+}
+
+
+
+}
